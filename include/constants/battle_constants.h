@@ -698,7 +698,7 @@ typedef enum BattleBg {
 #define TYPE_DRAGON   16
 #define TYPE_DARK     17
 #define TYPE_TYPELESS 18
-#define TYPE_STELLAR  19 // TODO: 99
+#define TYPE_SOUND    19 // did say TODO: 99
 
 #define NUMBER_OF_MON_TYPES 20
 
@@ -721,7 +721,7 @@ typedef enum BattleBg {
 #define TYPE_DARK_INTERNAL     16
 #define TYPE_FAIRY_INTERNAL    17
 #define TYPE_TYPELESS_INTERNAL 18
-#define TYPE_STELLAR_INTERNAL  99
+#define TYPE_SOUND_INTERNAL    19 // was 99
 
 // Type effectiveness
 #define TYPE_MUL_NO_EFFECT 0

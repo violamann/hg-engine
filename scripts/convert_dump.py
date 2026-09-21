@@ -113,7 +113,7 @@ def convert_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     key = resolve_species_name(sp_id, form)
 
     hardcoded_mappings = {
-        "SPECIES_DEOXYS_1": "SPECIES_496",
+        "SPECIES_DEOXYS_1": "SPECIES_MELODEON",
         "SPECIES_DEOXYS_2": "SPECIES_497",
         "SPECIES_DEOXYS_3": "SPECIES_498",
         "SPECIES_WORMADAM_1": "SPECIES_499",

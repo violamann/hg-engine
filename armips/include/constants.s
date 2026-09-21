@@ -22,7 +22,7 @@
 .equ TYPE_DRAGON            , 16
 .equ TYPE_DARK              , 17
 .equ TYPE_TYPELESS          , 18
-.equ TYPE_STELLAR           , 19 // TODO: 99
+.equ TYPE_SOUND           , 19 // TODO: 99
 
 .equ NUMBER_OF_MON_TYPES    , 20
 

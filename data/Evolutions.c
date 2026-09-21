@@ -956,7 +956,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
         .entries = {
             { EVO_TRADE, 0, SPECIES_MACHAMP },
             { EVO_STONE, ITEM_LINKING_CORD, SPECIES_MACHAMP },
-            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_LEVEL, 42, SPECIES_MACHAMP },
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },
@@ -1886,7 +1886,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
             { EVO_HAS_MOVE_TYPE, TYPE_FAIRY, SPECIES_SYLVEON },
             { EVO_FRIENDSHIP_DAY, 0, SPECIES_ESPEON },
             { EVO_FRIENDSHIP_NIGHT, 0, SPECIES_UMBREON },
-            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_HAS_MOVE_TYPE, TYPE_SOUND, SPECIES_MELODEON },
         },
     },
 
@@ -6958,7 +6958,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
         },
     },
 
-    [SPECIES_496] = {
+    [SPECIES_MELODEON] = {
         .entries = {
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },

@@ -759,7 +759,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 20,
                 .speed = 50,
             },
-            .types = { TYPE_BUG, TYPE_POISON },
+            .types = { TYPE_BUG, TYPE_BUG },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -816,7 +816,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 25,
                 .speed = 35,
             },
-            .types = { TYPE_BUG, TYPE_POISON },
+            .types = { TYPE_BUG, TYPE_STEEL },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -873,7 +873,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 75,
             },
-            .types = { TYPE_BUG, TYPE_POISON },
+            .types = { TYPE_BUG, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -930,7 +930,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 56,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_ELECTRIC, TYPE_FLYING },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -987,7 +987,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 71,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_ELECTRIC, TYPE_FLYING },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1044,7 +1044,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 101,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_ELECTRIC, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1557,7 +1557,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 40,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_ROCK },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1614,7 +1614,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 65,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_ROCK },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1728,7 +1728,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 56,
             },
-            .types = { TYPE_POISON, TYPE_POISON },
+            .types = { TYPE_POISON, TYPE_STEEL },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1785,7 +1785,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 76,
             },
-            .types = { TYPE_POISON, TYPE_GROUND },
+            .types = { TYPE_POISON, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1899,7 +1899,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 65,
             },
-            .types = { TYPE_POISON, TYPE_POISON },
+            .types = { TYPE_POISON, TYPE_DARK },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -1956,7 +1956,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 85,
             },
-            .types = { TYPE_POISON, TYPE_GROUND },
+            .types = { TYPE_POISON, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2127,7 +2127,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 65,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_PSYCHIC },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2184,7 +2184,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 100,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_PSYCHIC },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2241,7 +2241,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 25,
                 .speed = 20,
             },
-            .types = { TYPE_NORMAL, TYPE_FAIRY },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 170,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2298,7 +2298,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 45,
             },
-            .types = { TYPE_NORMAL, TYPE_FAIRY },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 50,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2355,7 +2355,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 55,
             },
-            .types = { TYPE_POISON, TYPE_FLYING },
+            .types = { TYPE_DARK, TYPE_FLYING },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2412,7 +2412,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 90,
             },
-            .types = { TYPE_POISON, TYPE_FLYING },
+            .types = { TYPE_DARK, TYPE_FLYING },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -2982,7 +2982,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 90,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_DARK, TYPE_DARK },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -3039,7 +3039,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 115,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_DARK, TYPE_DARK },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -3096,7 +3096,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 55,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_PSYCHIC },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -3153,7 +3153,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 85,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_PSYCHIC },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5262,7 +5262,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 80,
             },
-            .types = { TYPE_GHOST, TYPE_POISON },
+            .types = { TYPE_GHOST, TYPE_GHOST },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5319,7 +5319,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 95,
             },
-            .types = { TYPE_GHOST, TYPE_POISON },
+            .types = { TYPE_GHOST, TYPE_DARK },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5376,7 +5376,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 110,
             },
-            .types = { TYPE_GHOST, TYPE_POISON },
+            .types = { TYPE_GHOST, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5490,7 +5490,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 90,
                 .speed = 42,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_DARK, TYPE_DARK },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5547,7 +5547,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 115,
                 .speed = 67,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_DARK, TYPE_DARK },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5718,7 +5718,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 100,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5775,7 +5775,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 150,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -5946,7 +5946,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 35,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_NORMAL, TYPE_GROUND },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -6003,7 +6003,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 45,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_NORMAL, TYPE_GROUND },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -6516,7 +6516,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 60,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -6630,7 +6630,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 25,
                 .speed = 60,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FIRE },
             .catchRate = 225,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -6687,7 +6687,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 85,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FIRE },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7029,7 +7029,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 105,
             },
-            .types = { TYPE_BUG, TYPE_FLYING },
+            .types = { TYPE_BUG, TYPE_GRASS },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7143,7 +7143,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 105,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7257,7 +7257,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 85,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7371,7 +7371,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 20,
                 .speed = 80,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_NORMAL },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7428,7 +7428,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 81,
             },
-            .types = { TYPE_WATER, TYPE_FLYING },
+            .types = { TYPE_WATER, TYPE_DRAGON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7485,7 +7485,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 95,
                 .speed = 60,
             },
-            .types = { TYPE_WATER, TYPE_ICE },
+            .types = { TYPE_SOUND, TYPE_ICE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7827,7 +7827,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 40,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7884,7 +7884,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 35,
             },
-            .types = { TYPE_ROCK, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7941,7 +7941,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 55,
             },
-            .types = { TYPE_ROCK, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -7998,7 +7998,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 55,
             },
-            .types = { TYPE_ROCK, TYPE_WATER },
+            .types = { TYPE_BUG, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8055,7 +8055,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 80,
             },
-            .types = { TYPE_ROCK, TYPE_WATER },
+            .types = { TYPE_STEEL, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8075,7 +8075,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 50,
             .expRate = GROWTH_MEDIUM_FAST,
             .eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_WATER_3 },
-            .abilities = { ABILITY_SWIFT_SWIM, ABILITY_BATTLE_ARMOR },
+            .abilities = { ABILITY_SHARPNESS, ABILITY_BATTLE_ARMOR },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_BROWN,
             .flipSprite = 0,
@@ -8112,7 +8112,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 130,
             },
-            .types = { TYPE_ROCK, TYPE_FLYING },
+            .types = { TYPE_DRAGON, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8397,7 +8397,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 50,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_NORMAL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8454,7 +8454,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 70,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_NORMAL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8511,7 +8511,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 80,
             },
-            .types = { TYPE_DRAGON, TYPE_FLYING },
+            .types = { TYPE_DRAGON, TYPE_NORMAL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8568,7 +8568,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 90,
                 .speed = 130,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_PSYCHIC, TYPE_DARK },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8625,7 +8625,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 100,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_PSYCHIC, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8910,7 +8910,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 80,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_PSYCHIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -8967,7 +8967,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 100,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_PSYCHIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9081,7 +9081,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 63,
                 .speed = 58,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_ELECTRIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9138,7 +9138,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 83,
                 .speed = 78,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_ELECTRIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9309,7 +9309,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 56,
                 .speed = 50,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_PSYCHIC, TYPE_FLYING },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9366,7 +9366,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 96,
                 .speed = 70,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_PSYCHIC, TYPE_FLYING },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9480,7 +9480,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 110,
                 .speed = 85,
             },
-            .types = { TYPE_BUG, TYPE_FLYING },
+            .types = { TYPE_BUG, TYPE_STEEL },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9651,7 +9651,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 130,
             },
-            .types = { TYPE_POISON, TYPE_FLYING },
+            .types = { TYPE_DARK, TYPE_FLYING },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -9936,7 +9936,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 20,
                 .speed = 15,
             },
-            .types = { TYPE_NORMAL, TYPE_FAIRY },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 170,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -10563,7 +10563,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 30,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_GRASS },
             .catchRate = 65,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -10620,7 +10620,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 70,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -10848,7 +10848,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 85,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -10905,7 +10905,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 30,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_FIRE },
             .catchRate = 235,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -10962,7 +10962,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 30,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_FIRE },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11019,7 +11019,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 95,
             },
-            .types = { TYPE_BUG, TYPE_FLYING },
+            .types = { TYPE_BUG, TYPE_DRAGON },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11418,7 +11418,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 85,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11589,7 +11589,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 85,
             },
-            .types = { TYPE_NORMAL, TYPE_PSYCHIC },
+            .types = { TYPE_DARK, TYPE_PSYCHIC },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11646,7 +11646,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 15,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_GRASS },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11760,7 +11760,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 45,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_GROUND },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11817,7 +11817,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 85,
             },
-            .types = { TYPE_GROUND, TYPE_FLYING },
+            .types = { TYPE_GROUND, TYPE_POISON },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11988,7 +11988,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 45,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_FIGHTING },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -12216,7 +12216,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 95,
                 .speed = 85,
             },
-            .types = { TYPE_BUG, TYPE_FIGHTING },
+            .types = { TYPE_BUG, TYPE_FIRE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -12900,7 +12900,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 140,
                 .speed = 70,
             },
-            .types = { TYPE_WATER, TYPE_FLYING },
+            .types = { TYPE_WATER, TYPE_ELECTRIC },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13128,7 +13128,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 95,
                 .speed = 85,
             },
-            .types = { TYPE_WATER, TYPE_DRAGON },
+            .types = { TYPE_WATER, TYPE_FIRE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13242,7 +13242,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 50,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_STEEL },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13299,7 +13299,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 95,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13641,7 +13641,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 95,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13869,7 +13869,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 115,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13926,7 +13926,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 100,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_STEEL },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13983,7 +13983,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 115,
                 .speed = 85,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_ICE },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -14211,7 +14211,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 154,
                 .speed = 110,
             },
-            .types = { TYPE_PSYCHIC, TYPE_FLYING },
+            .types = { TYPE_WATER, TYPE_FLYING },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -14325,7 +14325,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 100,
             },
-            .types = { TYPE_PSYCHIC, TYPE_GRASS },
+            .types = { TYPE_FAIRY, TYPE_GRASS },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -14439,7 +14439,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 95,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_DRAGON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -14496,7 +14496,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 120,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_DRAGON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -14895,7 +14895,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 35,
             },
-            .types = { TYPE_DARK, TYPE_DARK },
+            .types = { TYPE_DARK, TYPE_POISON },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -14952,7 +14952,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 70,
             },
-            .types = { TYPE_DARK, TYPE_DARK },
+            .types = { TYPE_DARK, TYPE_POISON },
             .catchRate = 127,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -15009,7 +15009,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 41,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -15066,7 +15066,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 61,
                 .speed = 100,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -15750,7 +15750,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 85,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_FIRE, TYPE_FLYING },
             .catchRate = 200,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -15807,7 +15807,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 125,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_FIRE, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -15864,7 +15864,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 85,
             },
-            .types = { TYPE_WATER, TYPE_FLYING },
+            .types = { TYPE_WATER, TYPE_ELECTRIC },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -15921,7 +15921,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 65,
             },
-            .types = { TYPE_WATER, TYPE_FLYING },
+            .types = { TYPE_WATER, TYPE_ELECTRIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16263,7 +16263,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 35,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_POISON },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16320,7 +16320,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 70,
             },
-            .types = { TYPE_GRASS, TYPE_FIGHTING },
+            .types = { TYPE_POISON, TYPE_FIGHTING },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16434,7 +16434,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 90,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_FIGHTING },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16491,7 +16491,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 100,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16548,7 +16548,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 40,
             },
-            .types = { TYPE_BUG, TYPE_GROUND },
+            .types = { TYPE_BUG, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16605,7 +16605,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 160,
             },
-            .types = { TYPE_BUG, TYPE_FLYING },
+            .types = { TYPE_BUG, TYPE_DARK },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16719,7 +16719,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 23,
                 .speed = 28,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_SOUND, TYPE_SOUND },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16776,7 +16776,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 43,
                 .speed = 48,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_SOUND, TYPE_SOUND },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -16833,7 +16833,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 73,
                 .speed = 68,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_SOUND, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17118,7 +17118,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 50,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_FAIRY, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17138,7 +17138,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 70,
             .expRate = GROWTH_FAST,
             .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FAIRY },
-            .abilities = { ABILITY_CUTE_CHARM, ABILITY_NORMALIZE },
+            .abilities = { ABILITY_CUTE_CHARM, ABILITY_PIXILATE },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_PINK,
             .flipSprite = 0,
@@ -17175,7 +17175,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 90,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_FAIRY, TYPE_SOUND },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17195,7 +17195,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 70,
             .expRate = GROWTH_FAST,
             .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FAIRY },
-            .abilities = { ABILITY_CUTE_CHARM, ABILITY_NORMALIZE },
+            .abilities = { ABILITY_CUTE_CHARM, ABILITY_PIXILATE },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_PURPLE,
             .flipSprite = 0,
@@ -17232,7 +17232,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 50,
             },
-            .types = { TYPE_DARK, TYPE_GHOST },
+            .types = { TYPE_DARK, TYPE_ROCK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17252,7 +17252,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 35,
             .expRate = GROWTH_MEDIUM_SLOW,
             .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-            .abilities = { ABILITY_KEEN_EYE, ABILITY_STALL },
+            .abilities = { ABILITY_KEEN_EYE, ABILITY_SOLID_ROCK },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_PURPLE,
             .flipSprite = 0,
@@ -17346,7 +17346,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 30,
             },
-            .types = { TYPE_STEEL, TYPE_ROCK },
+            .types = { TYPE_STEEL, TYPE_STEEL },
             .catchRate = 180,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17403,7 +17403,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 40,
             },
-            .types = { TYPE_STEEL, TYPE_ROCK },
+            .types = { TYPE_STEEL, TYPE_STEEL },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17460,7 +17460,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 50,
             },
-            .types = { TYPE_STEEL, TYPE_ROCK },
+            .types = { TYPE_STEEL, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17745,7 +17745,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 95,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 200,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17802,7 +17802,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 95,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 200,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17859,7 +17859,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 85,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_ELECTRIC },
             .catchRate = 150,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -17916,7 +17916,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 85,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_ELECTRIC },
             .catchRate = 150,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18315,7 +18315,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 60,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FLYING },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18335,7 +18335,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 50,
             .expRate = GROWTH_FLUCTUATING,
             .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_WATER_2 },
-            .abilities = { ABILITY_WATER_VEIL, ABILITY_OBLIVIOUS },
+            .abilities = { ABILITY_WATER_VEIL, ABILITY_AERILATE },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_BLUE,
             .flipSprite = 0,
@@ -18486,7 +18486,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 20,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_GROUND },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18657,7 +18657,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_PSYCHIC },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18714,7 +18714,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 10,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_BUG, TYPE_GROUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18771,7 +18771,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 70,
             },
-            .types = { TYPE_GROUND, TYPE_DRAGON },
+            .types = { TYPE_BUG, TYPE_SOUND },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18828,7 +18828,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 100,
             },
-            .types = { TYPE_GROUND, TYPE_DRAGON },
+            .types = { TYPE_SOUND, TYPE_DRAGON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -18999,7 +18999,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 50,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_SOUND, TYPE_FLYING },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19056,7 +19056,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 105,
                 .speed = 80,
             },
-            .types = { TYPE_DRAGON, TYPE_FLYING },
+            .types = { TYPE_SOUND, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19113,7 +19113,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 90,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_FIGHTING, TYPE_NORMAL },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19133,7 +19133,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 70,
             .expRate = GROWTH_ERRATIC,
             .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-            .abilities = { ABILITY_IMMUNITY, ABILITY_NONE },
+            .abilities = { ABILITY_SHARPNESS, ABILITY_IMMUNITY },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_WHITE,
             .flipSprite = 0,
@@ -19170,7 +19170,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 65,
             },
-            .types = { TYPE_POISON, TYPE_POISON },
+            .types = { TYPE_POISON, TYPE_DARK },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19190,7 +19190,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 70,
             .expRate = GROWTH_FLUCTUATING,
             .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_DRAGON },
-            .abilities = { ABILITY_SHED_SKIN, ABILITY_NONE },
+            .abilities = { ABILITY_SHED_SKIN, ABILITY_STRONG_JAW },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_BLACK,
             .flipSprite = 0,
@@ -19227,7 +19227,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 70,
             },
-            .types = { TYPE_ROCK, TYPE_PSYCHIC },
+            .types = { TYPE_ROCK, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19284,7 +19284,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 70,
             },
-            .types = { TYPE_ROCK, TYPE_PSYCHIC },
+            .types = { TYPE_ROCK, TYPE_FIRE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19683,7 +19683,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 87,
                 .speed = 23,
             },
-            .types = { TYPE_ROCK, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19740,7 +19740,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 107,
                 .speed = 43,
             },
-            .types = { TYPE_ROCK, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_POISON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19797,7 +19797,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 75,
             },
-            .types = { TYPE_ROCK, TYPE_BUG },
+            .types = { TYPE_WATER, TYPE_BUG },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19854,7 +19854,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 45,
             },
-            .types = { TYPE_ROCK, TYPE_BUG },
+            .types = { TYPE_WATER, TYPE_BUG },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19911,7 +19911,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 80,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_NORMAL },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -19968,7 +19968,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 125,
                 .speed = 81,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FAIRY },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20139,7 +20139,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 33,
                 .speed = 45,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_DARK, TYPE_DARK },
             .catchRate = 225,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20196,7 +20196,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 63,
                 .speed = 65,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_DARK, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20367,7 +20367,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 87,
                 .speed = 51,
             },
-            .types = { TYPE_GRASS, TYPE_FLYING },
+            .types = { TYPE_GRASS, TYPE_GROUND },
             .catchRate = 200,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20424,7 +20424,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 90,
                 .speed = 65,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_SOUND, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20481,7 +20481,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 75,
             },
-            .types = { TYPE_DARK, TYPE_DARK },
+            .types = { TYPE_DARK, TYPE_PSYCHIC },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20652,7 +20652,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 80,
             },
-            .types = { TYPE_ICE, TYPE_ICE },
+            .types = { TYPE_ICE, TYPE_ROCK },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20880,7 +20880,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 32,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_STEEL },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20937,7 +20937,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 52,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_DARK },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -20994,7 +20994,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 52,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FAIRY },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21108,7 +21108,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 97,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FAIRY },
             .catchRate = 225,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21165,7 +21165,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 50,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_ROCK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21222,7 +21222,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 50,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_ROCK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21678,7 +21678,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 130,
                 .speed = 110,
             },
-            .types = { TYPE_DRAGON, TYPE_PSYCHIC },
+            .types = { TYPE_DRAGON, TYPE_FLYING },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21735,7 +21735,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 110,
                 .speed = 110,
             },
-            .types = { TYPE_DRAGON, TYPE_PSYCHIC },
+            .types = { TYPE_DRAGON, TYPE_FLYING },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21792,7 +21792,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 140,
                 .speed = 90,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_ICE },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21849,7 +21849,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 90,
                 .speed = 90,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_FIRE },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21906,7 +21906,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 90,
                 .speed = 95,
             },
-            .types = { TYPE_DRAGON, TYPE_FLYING },
+            .types = { TYPE_DRAGON, TYPE_ELECTRIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -21963,7 +21963,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 100,
             },
-            .types = { TYPE_STEEL, TYPE_PSYCHIC },
+            .types = { TYPE_STEEL, TYPE_FAIRY },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -22020,7 +22020,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 150,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_PSYCHIC, TYPE_DARK },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -22590,7 +22590,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_FLYING, TYPE_FLYING },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -22647,7 +22647,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 80,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_FIGHTING, TYPE_FLYING },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -22704,7 +22704,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 100,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_FIGHTING, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -22875,7 +22875,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 41,
                 .speed = 25,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -22932,7 +22932,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 51,
                 .speed = 65,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -23046,7 +23046,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 49,
                 .speed = 60,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_DARK },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -23103,7 +23103,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 70,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -23331,7 +23331,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 58,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -23388,7 +23388,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 88,
                 .speed = 30,
             },
-            .types = { TYPE_ROCK, TYPE_STEEL },
+            .types = { TYPE_GROUND, TYPE_ROCK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -23445,7 +23445,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 138,
                 .speed = 30,
             },
-            .types = { TYPE_ROCK, TYPE_STEEL },
+            .types = { TYPE_GROUND, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24186,7 +24186,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 66,
                 .speed = 115,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24357,7 +24357,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 56,
                 .speed = 85,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_FIGHTING },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24414,7 +24414,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 96,
                 .speed = 105,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_FIGHTING },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24471,7 +24471,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 105,
                 .speed = 105,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24585,7 +24585,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 37,
                 .speed = 85,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_DARK },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24642,7 +24642,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 59,
                 .speed = 112,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_DARK },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24699,7 +24699,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 45,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_SOUND, TYPE_STEEL },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -24984,7 +24984,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 10,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_GRASS },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -25155,7 +25155,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 42,
                 .speed = 91,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_SOUND, TYPE_FLYING },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -25212,7 +25212,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 108,
                 .speed = 35,
             },
-            .types = { TYPE_GHOST, TYPE_DARK },
+            .types = { TYPE_GHOST, TYPE_GHOST },
             .catchRate = 100,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -25725,7 +25725,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 65,
             },
-            .types = { TYPE_POISON, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_DARK },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -25782,7 +25782,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 95,
             },
-            .types = { TYPE_POISON, TYPE_DARK },
+            .types = { TYPE_BUG, TYPE_DARK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26010,7 +26010,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 61,
                 .speed = 66,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FAIRY },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26067,7 +26067,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 86,
                 .speed = 91,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FAIRY },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26124,7 +26124,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 120,
                 .speed = 50,
             },
-            .types = { TYPE_WATER, TYPE_FLYING },
+            .types = { TYPE_WATER, TYPE_ELECTRIC },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26523,7 +26523,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 50,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_WATER },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26580,7 +26580,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 95,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_FIGHTING },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26600,7 +26600,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 50,
             .expRate = GROWTH_MEDIUM_FAST,
             .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-            .abilities = { ABILITY_MOTOR_DRIVE, ABILITY_NONE },
+            .abilities = { ABILITY_MOTOR_DRIVE, ABILITY_IRON_FIST },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_YELLOW,
             .flipSprite = 0,
@@ -26751,7 +26751,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 56,
                 .speed = 95,
             },
-            .types = { TYPE_BUG, TYPE_FLYING },
+            .types = { TYPE_BUG, TYPE_DRAGON },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -26922,7 +26922,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 95,
             },
-            .types = { TYPE_GROUND, TYPE_FLYING },
+            .types = { TYPE_GROUND, TYPE_POISON },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -27036,7 +27036,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 90,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_ELECTRIC, TYPE_DARK },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -28273,60 +28273,60 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         },
     },
 
-    [SPECIES_496] = {
+    [SPECIES_MELODEON] = {
         .textData = {
-            .name = "-----",
-            .pokedexEntry = "-----",
-            .classification = "????? Pokémon",
-            .height = "???’??”",
-            .weight = "????.? lbs.",
+            .name = "Melodeon",
+            .pokedexEntry = "When an Eevee was exposed to Delta radiation\\nand music, this Pokémon was the result.",
+            .classification = "Musical Pokémon",
+            .height = "2’10”",
+            .weight = "45.8 lbs.",
         },
         .speciesData = {
             .baseStats = {
-                .hp = 50,
-                .attack = 180,
-                .defense = 20,
-                .spAttack = 180,
-                .spDefense = 20,
-                .speed = 150,
+                .hp = 60,
+                .attack = 65,
+                .defense = 60,
+                .spAttack = 130,
+                .spDefense = 90,
+                .speed = 110,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
-            .catchRate = 3,
-            .baseExpRewardPadding = 215,
+            .types = { TYPE_SOUND, TYPE_SOUND },
+            .catchRate = 45,
+            .baseExpRewardPadding = 0,
             .evYields = {
                 .hp = 0,
-                .attack = 2,
+                .attack =0,
                 .defense = 0,
-                .spAttack = 1,
-                .spDefense = 0,
+                .spAttack = 2,
+                .spDefense = 1,
                 .speed = 0,
             },
             .wildHeldItems = {
                 .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .rare = ITEM_METRONOME,
             },
-            .genderRatio = 255,
-            .hatchCycles = 120,
-            .baseFriendship = 0,
-            .expRate = GROWTH_SLOW,
-            .eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED },
-            .abilities = { ABILITY_PRESSURE, ABILITY_NONE },
+            .genderRatio = 31,
+            .hatchCycles = 35,
+            .baseFriendship = 50,
+            .expRate = GROWTH_MEDIUM_FAST,
+            .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
+            .abilities = { ABILITY_ORCHESTRAL, ABILITY_NONE },
             .safariFleeRate = 0,
-            .bodyColor = BODY_COLOR_RED,
+            .bodyColor = BODY_COLOR_WHITE,
             .flipSprite = 0,
         },
         .metricsData = {
-            .heightDecimetres = 0,
-            .weightHectograms = 69,
+            .heightDecimetres = 8,
+            .weightHectograms = 245,
             .bodyType = DEX_SEARCH_BODYTYPE_QUADRUPED,
             .femaleTrainerScale = 272,
             .femalePokemonScale = 256,
             .maleTrainerScale = 256,
             .malePokemonScale = 337,
             .femaleTrainerYOffset = 8,
-            .femalePokemonYOffset = 24,
+            .femalePokemonYOffset = 16,
             .maleTrainerYOffset = 9,
-            .malePokemonYOffset = 24,
+            .malePokemonYOffset = 16,
         },
     },
 
@@ -31026,7 +31026,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 100,
             },
-            .types = { TYPE_PSYCHIC, TYPE_FIRE },
+            .types = { TYPE_FAIRY, TYPE_FIRE },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -31482,7 +31482,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 60,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -31539,7 +31539,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 70,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -32337,7 +32337,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 24,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_PSYCHIC, TYPE_FAIRY },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -32394,7 +32394,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 95,
                 .speed = 29,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_PSYCHIC, TYPE_FAIRY },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -32622,7 +32622,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 32,
                 .speed = 76,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_FIRE },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -32679,7 +32679,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 63,
                 .speed = 116,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_FIRE },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -33135,7 +33135,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 86,
                 .speed = 50,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_SOUND, TYPE_FAIRY },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -33192,7 +33192,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 35,
             },
-            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+            .types = { TYPE_FIGHTING, TYPE_GRASS },
             .catchRate = 180,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -33249,7 +33249,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 40,
             },
-            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+            .types = { TYPE_FIGHTING, TYPE_STEEL },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -33306,7 +33306,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 45,
             },
-            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+            .types = { TYPE_FIGHTING, TYPE_ROCK },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -34446,7 +34446,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 50,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_FIGHTING },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -34503,7 +34503,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 95,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_FIGHTING },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -34523,7 +34523,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 50,
             .expRate = GROWTH_MEDIUM_SLOW,
             .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-            .abilities = { ABILITY_SHEER_FORCE, ABILITY_NONE },
+            .abilities = { ABILITY_SHEER_FORCE, ABILITY_IRON_FIST },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_RED,
             .flipSprite = 0,
@@ -34560,7 +34560,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 67,
                 .speed = 60,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -35016,7 +35016,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 22,
             },
-            .types = { TYPE_WATER, TYPE_ROCK },
+            .types = { TYPE_WATER, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -35073,7 +35073,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 32,
             },
-            .types = { TYPE_WATER, TYPE_ROCK },
+            .types = { TYPE_WATER, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -35130,7 +35130,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 70,
             },
-            .types = { TYPE_ROCK, TYPE_FLYING },
+            .types = { TYPE_FLYING, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -35187,7 +35187,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 110,
             },
-            .types = { TYPE_ROCK, TYPE_FLYING },
+            .types = { TYPE_FLYING, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -36213,7 +36213,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 75,
             },
-            .types = { TYPE_NORMAL, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -36270,7 +36270,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 95,
             },
-            .types = { TYPE_NORMAL, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -36726,7 +36726,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 65,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_FAIRY },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -37011,7 +37011,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 30,
             },
-            .types = { TYPE_STEEL, TYPE_STEEL },
+            .types = { TYPE_STEEL, TYPE_ELECTRIC },
             .catchRate = 130,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -37068,7 +37068,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 50,
             },
-            .types = { TYPE_STEEL, TYPE_STEEL },
+            .types = { TYPE_STEEL, TYPE_ELECTRIC },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -37125,7 +37125,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 90,
             },
-            .types = { TYPE_STEEL, TYPE_STEEL },
+            .types = { TYPE_STEEL, TYPE_ELECTRIC },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -37695,7 +37695,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 67,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_STEEL },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -37752,7 +37752,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 97,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -38436,7 +38436,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 60,
             },
-            .types = { TYPE_DARK, TYPE_STEEL },
+            .types = { TYPE_FIGHTING, TYPE_STEEL },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -38456,7 +38456,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 35,
             .expRate = GROWTH_MEDIUM_FAST,
             .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-            .abilities = { ABILITY_DEFIANT, ABILITY_INNER_FOCUS },
+            .abilities = { ABILITY_DEFIANT, ABILITY_SHARPNESS },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_RED,
             .flipSprite = 0,
@@ -38493,7 +38493,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 70,
             },
-            .types = { TYPE_DARK, TYPE_STEEL },
+            .types = { TYPE_FIGHTING, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -38513,7 +38513,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 35,
             .expRate = GROWTH_MEDIUM_FAST,
             .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-            .abilities = { ABILITY_DEFIANT, ABILITY_INNER_FOCUS },
+            .abilities = { ABILITY_DEFIANT, ABILITY_SHARPNESS },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_RED,
             .flipSprite = 0,
@@ -38721,7 +38721,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 60,
             },
-            .types = { TYPE_DARK, TYPE_FLYING },
+            .types = { TYPE_GROUND, TYPE_FLYING },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -38778,7 +38778,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 95,
                 .speed = 80,
             },
-            .types = { TYPE_DARK, TYPE_FLYING },
+            .types = { TYPE_GROUND, TYPE_FLYING },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -39804,7 +39804,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 128,
                 .speed = 90,
             },
-            .types = { TYPE_NORMAL, TYPE_PSYCHIC },
+            .types = { TYPE_SOUND, TYPE_PSYCHIC },
             .catchRate = 3,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -40146,7 +40146,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 73,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -40203,7 +40203,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 104,
             },
-            .types = { TYPE_FIRE, TYPE_PSYCHIC },
+            .types = { TYPE_FIRE, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -40887,7 +40887,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 54,
                 .speed = 72,
             },
-            .types = { TYPE_FIRE, TYPE_NORMAL },
+            .types = { TYPE_FIRE, TYPE_SOUND },
             .catchRate = 220,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -40944,7 +40944,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 66,
                 .speed = 106,
             },
-            .types = { TYPE_FIRE, TYPE_NORMAL },
+            .types = { TYPE_FIRE, TYPE_SOUND },
             .catchRate = 65,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -41001,7 +41001,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 42,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_GRASS },
             .catchRate = 225,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -41058,7 +41058,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 98,
                 .speed = 52,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_GRASS },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -41115,7 +41115,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 154,
                 .speed = 75,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_GRASS },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42369,7 +42369,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 89,
                 .speed = 59,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_DRAGON },
             .catchRate = 55,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42426,7 +42426,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 43,
                 .speed = 70,
             },
-            .types = { TYPE_ELECTRIC, TYPE_NORMAL },
+            .types = { TYPE_ELECTRIC, TYPE_FIRE },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42483,7 +42483,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 94,
                 .speed = 109,
             },
-            .types = { TYPE_ELECTRIC, TYPE_NORMAL },
+            .types = { TYPE_ELECTRIC, TYPE_FIRE },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42540,7 +42540,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 48,
             },
-            .types = { TYPE_ROCK, TYPE_DRAGON },
+            .types = { TYPE_DARK, TYPE_DRAGON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42597,7 +42597,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 59,
                 .speed = 71,
             },
-            .types = { TYPE_ROCK, TYPE_DRAGON },
+            .types = { TYPE_DARK, TYPE_DRAGON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42654,7 +42654,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 63,
                 .speed = 46,
             },
-            .types = { TYPE_ROCK, TYPE_ICE },
+            .types = { TYPE_ICE, TYPE_ICE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42711,7 +42711,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 92,
                 .speed = 58,
             },
-            .types = { TYPE_ROCK, TYPE_ICE },
+            .types = { TYPE_ICE, TYPE_ICE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -42996,7 +42996,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 40,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -43053,7 +43053,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 113,
                 .speed = 60,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -43110,7 +43110,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 150,
                 .speed = 80,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_DRAGON, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -43338,7 +43338,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 51,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -43395,7 +43395,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 84,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -43566,7 +43566,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 55,
             },
-            .types = { TYPE_FLYING, TYPE_DRAGON },
+            .types = { TYPE_FLYING, TYPE_SOUND },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -43623,7 +43623,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 123,
             },
-            .types = { TYPE_FLYING, TYPE_DRAGON },
+            .types = { TYPE_FLYING, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -44364,7 +44364,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 56,
                 .speed = 40,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -44421,7 +44421,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 81,
                 .speed = 50,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -44478,7 +44478,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 116,
                 .speed = 60,
             },
-            .types = { TYPE_WATER, TYPE_FAIRY },
+            .types = { TYPE_WATER, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -44535,7 +44535,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 65,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_SOUND, TYPE_FLYING },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -44592,7 +44592,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 75,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_SOUND, TYPE_FLYING },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -44649,7 +44649,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_FLYING },
+            .types = { TYPE_SOUND, TYPE_FLYING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -45276,7 +45276,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 60,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_NORMAL },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -45333,7 +45333,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 112,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_NORMAL },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -46131,7 +46131,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 50,
             },
-            .types = { TYPE_NORMAL, TYPE_FIGHTING },
+            .types = { TYPE_NORMAL, TYPE_FAIRY },
             .catchRate = 140,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -46188,7 +46188,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_FIGHTING },
+            .types = { TYPE_FAIRY, TYPE_FIGHTING },
             .catchRate = 70,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -46302,7 +46302,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 48,
                 .speed = 62,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_FIGHTING },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -46359,7 +46359,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 98,
                 .speed = 72,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -46416,7 +46416,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 110,
                 .speed = 100,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_GRASS },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -46815,7 +46815,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 130,
                 .speed = 5,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_DARK },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -47385,7 +47385,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 90,
                 .speed = 40,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_STEEL, TYPE_GRASS },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -47405,7 +47405,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             .baseFriendship = 50,
             .expRate = GROWTH_MEDIUM_FAST,
             .eggGroups = { EGG_GROUP_MINERAL, EGG_GROUP_MINERAL },
-            .abilities = { ABILITY_STEELWORKER, ABILITY_NONE },
+            .abilities = { ABILITY_STURDY, ABILITY_NONE },
             .safariFleeRate = 0,
             .bodyColor = BODY_COLOR_GREEN,
             .flipSprite = 0,
@@ -47442,7 +47442,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 45,
             },
-            .types = { TYPE_DRAGON, TYPE_DRAGON },
+            .types = { TYPE_SOUND, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -47499,7 +47499,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 65,
             },
-            .types = { TYPE_DRAGON, TYPE_FIGHTING },
+            .types = { TYPE_SOUND, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -47556,7 +47556,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 105,
                 .speed = 85,
             },
-            .types = { TYPE_DRAGON, TYPE_FIGHTING },
+            .types = { TYPE_SOUND, TYPE_FIGHTING },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -49038,7 +49038,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 65,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -49095,7 +49095,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 80,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -49152,7 +49152,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 85,
             },
-            .types = { TYPE_GRASS, TYPE_GRASS },
+            .types = { TYPE_GRASS, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -50463,7 +50463,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 26,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -50520,7 +50520,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 121,
             },
-            .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
+            .types = { TYPE_ELECTRIC, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -50919,7 +50919,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 46,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_DARK },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -50976,7 +50976,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 71,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_DARK },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51090,7 +51090,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 30,
                 .speed = 66,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_DARK },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51147,7 +51147,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 136,
             },
-            .types = { TYPE_WATER, TYPE_WATER },
+            .types = { TYPE_WATER, TYPE_DARK },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51204,7 +51204,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 40,
             },
-            .types = { TYPE_ELECTRIC, TYPE_POISON },
+            .types = { TYPE_SOUND, TYPE_POISON },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51261,7 +51261,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 75,
             },
-            .types = { TYPE_ELECTRIC, TYPE_POISON },
+            .types = { TYPE_SOUND, TYPE_POISON },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51432,7 +51432,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 50,
                 .speed = 32,
             },
-            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+            .types = { TYPE_FIGHTING, TYPE_WATER },
             .catchRate = 180,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51489,7 +51489,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 42,
             },
-            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+            .types = { TYPE_FIGHTING, TYPE_WATER },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51546,7 +51546,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 54,
                 .speed = 50,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_WATER },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -51603,7 +51603,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 114,
                 .speed = 70,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_WATER },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -52002,7 +52002,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 81,
                 .speed = 95,
             },
-            .types = { TYPE_DARK, TYPE_NORMAL },
+            .types = { TYPE_DARK, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -52116,7 +52116,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 130,
                 .speed = 30,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_ROCK },
             .catchRate = 30,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -52458,7 +52458,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 60,
                 .speed = 75,
             },
-            .types = { TYPE_FIGHTING, TYPE_FIGHTING },
+            .types = { TYPE_FIGHTING, TYPE_STEEL },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -54738,7 +54738,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 58,
                 .speed = 49,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -54795,7 +54795,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 66,
             },
-            .types = { TYPE_FIRE, TYPE_GHOST },
+            .types = { TYPE_FIRE, TYPE_SOUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55194,7 +55194,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 86,
                 .speed = 35,
             },
-            .types = { TYPE_BUG, TYPE_BUG },
+            .types = { TYPE_BUG, TYPE_DARK },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55536,7 +55536,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 75,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 150,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55593,7 +55593,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 111,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55707,7 +55707,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 95,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_FIRE },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55764,7 +55764,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 51,
                 .speed = 30,
             },
-            .types = { TYPE_GRASS, TYPE_NORMAL },
+            .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 255,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55821,7 +55821,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 78,
                 .speed = 33,
             },
-            .types = { TYPE_GRASS, TYPE_NORMAL },
+            .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -55878,7 +55878,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 109,
                 .speed = 39,
             },
-            .types = { TYPE_GRASS, TYPE_NORMAL },
+            .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -56163,7 +56163,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 40,
                 .speed = 35,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_FIGHTING },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -56220,7 +56220,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 75,
             },
-            .types = { TYPE_FIRE, TYPE_PSYCHIC },
+            .types = { TYPE_FIRE, TYPE_STEEL },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -56277,7 +56277,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 85,
             },
-            .types = { TYPE_FIRE, TYPE_GHOST },
+            .types = { TYPE_FIRE, TYPE_DARK },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -56676,7 +56676,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 35,
                 .speed = 75,
             },
-            .types = { TYPE_POISON, TYPE_NORMAL },
+            .types = { TYPE_POISON, TYPE_DARK },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -56733,7 +56733,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 72,
                 .speed = 110,
             },
-            .types = { TYPE_POISON, TYPE_NORMAL },
+            .types = { TYPE_POISON, TYPE_DARK },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -58044,7 +58044,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 65,
             },
-            .types = { TYPE_STEEL, TYPE_STEEL },
+            .types = { TYPE_STEEL, TYPE_GROUND },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -58215,7 +58215,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 34,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_NORMAL },
             .catchRate = 120,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -58272,7 +58272,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 97,
                 .speed = 68,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_NORMAL },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -58785,7 +58785,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 60,
             },
-            .types = { TYPE_NORMAL, TYPE_PSYCHIC },
+            .types = { TYPE_DARK, TYPE_PSYCHIC },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -58842,7 +58842,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 55,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_GROUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -58899,7 +58899,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 50,
             },
-            .types = { TYPE_DARK, TYPE_STEEL },
+            .types = { TYPE_FIGHTING, TYPE_STEEL },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -59640,7 +59640,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 45,
                 .speed = 55,
             },
-            .types = { TYPE_DRAGON, TYPE_ICE },
+            .types = { TYPE_ICE, TYPE_ICE },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -59697,7 +59697,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 62,
             },
-            .types = { TYPE_DRAGON, TYPE_ICE },
+            .types = { TYPE_ICE, TYPE_ICE },
             .catchRate = 25,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -59741,7 +59741,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         .textData = {
             .name = "Baxcalibur",
             .pokedexEntry = "This Pokémon blasts cryogenic air\\nout from its mouth. This air can\\ninstantly freeze even liquid-hot lava.",
-            .classification = "Ice Dragon Pokémon",
+            .classification = "Ice Blade Pokémon",
             .height = "6’11”",
             .weight = "463.0 lbs.",
         },
@@ -59754,7 +59754,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 86,
                 .speed = 87,
             },
-            .types = { TYPE_DRAGON, TYPE_ICE },
+            .types = { TYPE_STEEL, TYPE_ICE },
             .catchRate = 10,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -59925,7 +59925,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 135,
                 .speed = 70,
             },
-            .types = { TYPE_DARK, TYPE_GRASS },
+            .types = { TYPE_BUG, TYPE_GRASS },
             .catchRate = 6,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -59982,7 +59982,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 135,
             },
-            .types = { TYPE_DARK, TYPE_ICE },
+            .types = { TYPE_ICE, TYPE_ICE },
             .catchRate = 6,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -60039,7 +60039,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 45,
             },
-            .types = { TYPE_DARK, TYPE_GROUND },
+            .types = { TYPE_ROCK, TYPE_GROUND },
             .catchRate = 6,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -60096,7 +60096,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 120,
                 .speed = 100,
             },
-            .types = { TYPE_DARK, TYPE_FIRE },
+            .types = { TYPE_WATER, TYPE_FIRE },
             .catchRate = 6,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -65967,7 +65967,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 90,
             },
-            .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+            .types = { TYPE_FAIRY, TYPE_FAIRY },
             .catchRate = 190,
             .baseExpRewardPadding = 82,
             .evYields = {
@@ -66024,7 +66024,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 80,
                 .speed = 105,
             },
-            .types = { TYPE_PSYCHIC, TYPE_FAIRY },
+            .types = { TYPE_FAIRY, TYPE_FAIRY },
             .catchRate = 60,
             .baseExpRewardPadding = 175,
             .evYields = {
@@ -66594,7 +66594,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 100,
                 .speed = 30,
             },
-            .types = { TYPE_GHOST, TYPE_GHOST },
+            .types = { TYPE_GHOST, TYPE_ROCK },
             .catchRate = 60,
             .baseExpRewardPadding = 144,
             .evYields = {
@@ -66651,7 +66651,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 41,
                 .speed = 60,
             },
-            .types = { TYPE_DARK, TYPE_NORMAL },
+            .types = { TYPE_DARK, TYPE_SOUND },
             .catchRate = 255,
             .baseExpRewardPadding = 56,
             .evYields = {
@@ -66708,7 +66708,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 61,
                 .speed = 100,
             },
-            .types = { TYPE_DARK, TYPE_NORMAL },
+            .types = { TYPE_DARK, TYPE_SOUND },
             .catchRate = 90,
             .baseExpRewardPadding = 147,
             .evYields = {
@@ -69159,7 +69159,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 77,
                 .speed = 128,
             },
-            .types = { TYPE_NORMAL, TYPE_FIGHTING },
+            .types = { TYPE_SOUND, TYPE_FIGHTING },
             .catchRate = 3,
             .baseExpRewardPadding = 14,
             .evYields = {
@@ -70641,7 +70641,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 42,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 225,
             .baseExpRewardPadding = 61,
             .evYields = {
@@ -70698,7 +70698,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 42,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 225,
             .baseExpRewardPadding = 61,
             .evYields = {
@@ -70755,7 +70755,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 42,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 225,
             .baseExpRewardPadding = 61,
             .evYields = {
@@ -70812,7 +70812,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 42,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 225,
             .baseExpRewardPadding = 61,
             .evYields = {
@@ -70869,7 +70869,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 98,
                 .speed = 52,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 120,
             .baseExpRewardPadding = 130,
             .evYields = {
@@ -70926,7 +70926,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 98,
                 .speed = 52,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 120,
             .baseExpRewardPadding = 130,
             .evYields = {
@@ -70983,7 +70983,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 98,
                 .speed = 52,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 120,
             .baseExpRewardPadding = 130,
             .evYields = {
@@ -71040,7 +71040,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 98,
                 .speed = 52,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 120,
             .baseExpRewardPadding = 130,
             .evYields = {
@@ -71097,7 +71097,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 128,
                 .speed = 92,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 120,
             .baseExpRewardPadding = 243,
             .evYields = {
@@ -71154,7 +71154,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 154,
                 .speed = 75,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 248,
             .evYields = {
@@ -71211,7 +71211,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 154,
                 .speed = 75,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 248,
             .evYields = {
@@ -71268,7 +71268,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 154,
                 .speed = 75,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 248,
             .evYields = {
@@ -71325,7 +71325,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 154,
                 .speed = 75,
             },
-            .types = { TYPE_FAIRY, TYPE_FAIRY },
+            .types = { TYPE_GRASS, TYPE_FAIRY },
             .catchRate = 45,
             .baseExpRewardPadding = 248,
             .evYields = {
@@ -71952,7 +71952,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 56,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 120,
             .baseExpRewardPadding = 67,
             .evYields = {
@@ -72009,7 +72009,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 46,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 120,
             .baseExpRewardPadding = 67,
             .evYields = {
@@ -72066,7 +72066,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 41,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 120,
             .baseExpRewardPadding = 67,
             .evYields = {
@@ -72123,7 +72123,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 99,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 60,
             .baseExpRewardPadding = 173,
             .evYields = {
@@ -72180,7 +72180,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 69,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 60,
             .baseExpRewardPadding = 173,
             .evYields = {
@@ -72237,7 +72237,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 54,
             },
-            .types = { TYPE_GHOST, TYPE_GRASS },
+            .types = { TYPE_GHOST, TYPE_FIRE },
             .catchRate = 60,
             .baseExpRewardPadding = 173,
             .evYields = {
@@ -72921,7 +72921,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 82,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_DARK },
             .catchRate = 90,
             .baseExpRewardPadding = 170,
             .evYields = {
@@ -72978,7 +72978,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 110,
             },
-            .types = { TYPE_ROCK, TYPE_ROCK },
+            .types = { TYPE_ROCK, TYPE_NORMAL },
             .catchRate = 90,
             .baseExpRewardPadding = 170,
             .evYields = {
@@ -74403,7 +74403,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 70,
                 .speed = 75,
             },
-            .types = { TYPE_ELECTRIC, TYPE_POISON },
+            .types = { TYPE_SOUND, TYPE_POISON },
             .catchRate = 45,
             .baseExpRewardPadding = 176,
             .evYields = {
@@ -77196,7 +77196,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 111,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_SOUND },
             .catchRate = 75,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -77595,7 +77595,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 75,
                 .speed = 55,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_GROUND },
             .catchRate = 45,
             .baseExpRewardPadding = 0,
             .evYields = {

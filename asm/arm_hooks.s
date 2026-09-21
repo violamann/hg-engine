@@ -17,3 +17,4 @@ mov pc, r1
 
 NNSi_SndArcLoadBank_return_address:
 .word 0
+.global FixSummaryScreenTypeIcon

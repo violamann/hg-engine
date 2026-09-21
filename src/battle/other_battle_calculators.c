@@ -1920,7 +1920,7 @@ int LONG_CALL GetTypeEffectiveness(struct BattleSystem *bw, struct BattleStruct 
     u32 type2Effectiveness_Dual = TYPE_MUL_NORMAL;
     u32 type3Effectiveness_Dual = TYPE_MUL_NORMAL;
 
-    if (GetSanitisedType(move_type) == TYPE_STELLAR) {
+    if (GetSanitisedType(move_type) == TYPE_SOUND) {
         // https://xcancel.com/Sibuna_Switch/status/1827463371383328877#m
         if (!sp->battlemon[attack_client].is_currently_terastallized) {
             return TYPE_MUL_NO_EFFECT;
@@ -1954,7 +1954,7 @@ int LONG_CALL GetTypeEffectiveness(struct BattleSystem *bw, struct BattleStruct 
             }
         } else if (TypeEffectivenessTable[typeTableEntryNo][0] == move_type) {
             if (sp->battlemon[defence_client].is_currently_terastallized
-                && defender_tera_type != TYPE_STELLAR) {
+                && defender_tera_type != TYPE_SOUND) {
                 if (TypeEffectivenessTable[typeTableEntryNo][1] == defender_tera_type) {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, typeTableEntryNo)
                         && !StrongWindsShouldWeaken(bw, sp, typeTableEntryNo, defender_tera_type)) {
@@ -1985,7 +1985,7 @@ int LONG_CALL GetTypeEffectiveness(struct BattleSystem *bw, struct BattleStruct 
             }
         } else if (sp->current_move_index == MOVE_FLYING_PRESS
             && TypeEffectivenessTable[typeTableEntryNo][0] == TYPE_FLYING) {
-            if (sp->battlemon[defence_client].is_currently_terastallized && defender_tera_type != TYPE_STELLAR) {
+            if (sp->battlemon[defence_client].is_currently_terastallized && defender_tera_type != TYPE_SOUND) {
                 if (TypeEffectivenessTable[typeTableEntryNo][1] == defender_tera_type) {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, typeTableEntryNo)
                         && !StrongWindsShouldWeaken(bw, sp, typeTableEntryNo, defender_tera_type)) {
@@ -3277,9 +3277,9 @@ int LONG_CALL GetDynamicMoveType(struct BattleSystem *bsys, struct BattleStruct 
         }
         break;
     case MOVE_REVELATION_DANCE:
-        if (ctx->battlemon[battlerId].is_currently_terastallized && ctx->battlemon[battlerId].tera_type != TYPE_STELLAR) {
+        if (ctx->battlemon[battlerId].is_currently_terastallized && ctx->battlemon[battlerId].tera_type != TYPE_SOUND) {
             // Assert that the Tera Type is valid
-            GF_ASSERT(TYPE_NORMAL <= ctx->battlemon[battlerId].tera_type && TYPE_STELLAR >= ctx->battlemon[battlerId].tera_type && TYPE_TYPELESS != ctx->battlemon[battlerId].tera_type);
+            GF_ASSERT(TYPE_NORMAL <= ctx->battlemon[battlerId].tera_type && TYPE_SOUND >= ctx->battlemon[battlerId].tera_type && TYPE_TYPELESS != ctx->battlemon[battlerId].tera_type);
 
             type = ctx->battlemon[battlerId].tera_type;
         } else if (ctx->battlemon[battlerId].type1 != TYPE_TYPELESS) {
@@ -3397,7 +3397,7 @@ int LONG_CALL GetDynamicMoveType(struct BattleSystem *bsys, struct BattleStruct 
     case MOVE_TERA_STARSTORM:
         if (ctx->battlemon[battlerId].is_currently_terastallized) {
             // Assert that the Tera Type is valid
-            GF_ASSERT(TYPE_NORMAL <= ctx->battlemon[battlerId].tera_type && TYPE_STELLAR >= ctx->battlemon[battlerId].tera_type && TYPE_TYPELESS != ctx->battlemon[battlerId].tera_type);
+            GF_ASSERT(TYPE_NORMAL <= ctx->battlemon[battlerId].tera_type && TYPE_SOUND >= ctx->battlemon[battlerId].tera_type && TYPE_TYPELESS != ctx->battlemon[battlerId].tera_type);
 
             // Assert that Ogerpon has the correct Tera Type. However, the game should stall at Terastallization animation
             if (species == SPECIES_OGERPON) {
@@ -3792,7 +3792,7 @@ int LONG_CALL GetClientActionPriority(struct BattleSystem *bsys UNUSED, struct B
 /// @return whether the client has the type
 BOOL LONG_CALL HasType(struct BattleStruct *ctx, int battlerId, int type)
 {
-    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_STELLAR);
+    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_SOUND);
     if (battlerId == BATTLER_NONE) {
         return FALSE;
     }
@@ -3807,7 +3807,7 @@ BOOL LONG_CALL ChangeToPureType(struct BattleStruct *ctx, int battlerId, int typ
 {
     // debug_printf("In ChangeToPureType\n");
 
-    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_STELLAR);
+    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_SOUND);
     struct BattlePokemon *client = &ctx->battlemon[battlerId];
 
     if (client->is_currently_terastallized) {
@@ -3832,7 +3832,7 @@ BOOL LONG_CALL AddType(struct BattleStruct *ctx, int battlerId, int type)
 {
     // debug_printf("In AddType\n");
 
-    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_STELLAR);
+    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_SOUND);
     struct BattlePokemon *client = &ctx->battlemon[battlerId];
 
     if (client->is_currently_terastallized) {
@@ -3864,7 +3864,7 @@ BOOL LONG_CALL RemoveType(struct BattleStruct *ctx, int battlerId, int type)
 {
     // debug_printf("In RemoveType\n");
 
-    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_STELLAR);
+    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_SOUND);
     struct BattlePokemon *client = &ctx->battlemon[battlerId];
 
     if (client->is_currently_terastallized) {
@@ -3990,7 +3990,7 @@ BOOL LONG_CALL CanActivateDamageReductionBerry(struct BattleStruct *ctx, int def
 
 BOOL LONG_CALL IsPureType(struct BattleStruct *ctx, int battlerId, int type)
 {
-    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_STELLAR);
+    GF_ASSERT(TYPE_NORMAL <= type && type <= TYPE_SOUND);
     struct BattlePokemon client = ctx->battlemon[battlerId];
     return client.is_currently_terastallized ? client.tera_type == type : (client.type1 == type && client.type2 == type && client.type3 == TYPE_TYPELESS);
 }
@@ -4254,7 +4254,7 @@ const u8 HGTypeToInternalType[] = {
     [TYPE_DRAGON] = TYPE_DRAGON_INTERNAL,
     [TYPE_DARK] = TYPE_DARK_INTERNAL,
     [TYPE_TYPELESS] = TYPE_TYPELESS_INTERNAL,
-    [TYPE_STELLAR] = TYPE_STELLAR_INTERNAL,
+    [TYPE_SOUND] = TYPE_SOUND_INTERNAL,
 
 };
 
@@ -4278,7 +4278,7 @@ const u8 InternalTypeToHGType[] = {
     [TYPE_DRAGON_INTERNAL] = TYPE_DRAGON,
     [TYPE_DARK_INTERNAL] = TYPE_DARK,
     [TYPE_TYPELESS_INTERNAL] = TYPE_TYPELESS,
-    [TYPE_STELLAR_INTERNAL] = TYPE_STELLAR,
+    [TYPE_SOUND_INTERNAL] = TYPE_SOUND,
 
 };
 
@@ -4606,4 +4606,11 @@ BOOL LONG_CALL ShouldUseNormalTypeEffCalc(struct BattleStruct *ctx, int attack_c
     }
 
     return ret;
+}
+u32 GetSummaryScreenTypeSpriteIndex(u32 originalType)
+{
+    if (originalType == 19) {
+        return 19; // Tells the system to explicitly step down to your new custom asset row
+    }
+    return originalType; // Lets standard types (0-18) process normally
 }

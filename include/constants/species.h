@@ -502,7 +502,7 @@
 #define SPECIES_ARCEUS       493
 #define SPECIES_EGG          494
 #define SPECIES_BAD_EGG      495
-#define SPECIES_496          496
+#define SPECIES_MELODEON     496
 #define SPECIES_497          497
 #define SPECIES_498          498
 #define SPECIES_499          499

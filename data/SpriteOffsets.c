@@ -19346,7 +19346,7 @@ const SpriteFrameData __data[] = {
         .shadowXOffset = 0,
         .shadowSize = 1,
     },
-    [SPECIES_496] = {
+    [SPECIES_MELODEON] = {
         .frontHeader = {
             .cryDelay = 0,
             .animation = 2,

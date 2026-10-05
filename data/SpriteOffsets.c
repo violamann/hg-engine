@@ -19346,7 +19346,7 @@ const SpriteFrameData __data[] = {
         .shadowXOffset = 0,
         .shadowSize = 1,
     },
-    [SPECIES_MELODEON] = {
+    [SPECIES_496] = {
         .frontHeader = {
             .cryDelay = 0,
             .animation = 2,
@@ -41965,6 +41965,45 @@ const SpriteFrameData __data[] = {
         .spriteYOffset = 0,
         .shadowXOffset = 0,
         .shadowSize = 3,
+    },
+    [SPECIES_MELODEON] = {
+        .frontHeader = {
+            .cryDelay = 15,
+            .animation = 18,
+            .animationDelay = 15,
+        },
+        .frontFrames = {
+                { .frameNo = 0, .duration = 20, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = 1, .duration = 26, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+        },
+        .backHeader = {
+            .cryDelay = 12,
+            .animation = 2,
+            .animationDelay = 12,
+        },
+        .backFrames = {
+                { .frameNo = 0, .duration = 12, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = 1, .duration = 15, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = 1, .duration = 5, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+                { .frameNo = -1, .duration = 0, .horizontalShift = 0, .verticalShift = 0 },
+        },
+        .spriteYOffset = 2,
+        .shadowXOffset = -5,
+        .shadowSize = 1,
     },
     [SPECIES_MEGA_VENUSAUR] = {
         .frontHeader = {

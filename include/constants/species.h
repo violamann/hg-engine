@@ -502,7 +502,7 @@
 #define SPECIES_ARCEUS       493
 #define SPECIES_EGG          494
 #define SPECIES_BAD_EGG      495
-#define SPECIES_MELODEON     496
+#define SPECIES_496          496
 #define SPECIES_497          497
 #define SPECIES_498          498
 #define SPECIES_499          499
@@ -1088,7 +1088,9 @@
 // define your fakemons below like this
 // #define SPECIES_FAKEMON_NAME1 (MAX_CANONICAL_MON_NUM + 1)
 
-#define NUM_OF_FAKEMONS 0
+#define SPECIES_MELODEON (MAX_CANONICAL_MON_NUM + 1)
+
+#define NUM_OF_FAKEMONS 1
 
 #define SPECIES_MAX_MON_NUM (SPECIES_PECHARUNT + NUM_OF_FAKEMONS)
 

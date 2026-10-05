@@ -141,6 +141,8 @@ void LONG_CALL Summary_SetPokemonData(void *summary, struct PartyPokemon *pokemo
  * @return              The Pokemon struct attached to the summary.
  */
 void *LONG_CALL Summary_GetPokemonData(struct SummaryState *summary);
+u32 LONG_CALL Summary_GetTypeSpriteIndex(u32 type);
+u32 LONG_CALL Summary_GetTypePaletteIndex(u32 type);
 
 /**
  * @brief Converts a number input to a displayable string and stores it in

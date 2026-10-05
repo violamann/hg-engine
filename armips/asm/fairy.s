@@ -177,3 +177,15 @@ hook_subroutine_02258C1A_ov_0C:
 .halfword 0x7EDF, 0xF23F, 0x6A1E, 0x59DD, 0xCD5B, 0xC117, 0xB4D6, 0x7F37
 
 .close
+
+.open "base/overlay/overlay_0006.bin", 0x0221BA00
+
+// Sound type move-selection palette.
+// Reuse the existing Water palette (cyan) for TYPE_SOUND (19).
+// Type palette pointer table begins at overlay offset 0x3D0.
+// Entry 19 is at 0x3D0 + (19 * 4) = 0x41C.
+.orga 0x41C
+.word 0x0221BC4C
+
+.close
+

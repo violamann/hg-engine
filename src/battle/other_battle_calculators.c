@@ -4607,10 +4607,3 @@ BOOL LONG_CALL ShouldUseNormalTypeEffCalc(struct BattleStruct *ctx, int attack_c
 
     return ret;
 }
-u32 GetSummaryScreenTypeSpriteIndex(u32 originalType)
-{
-    if (originalType == 19) {
-        return 19; // Tells the system to explicitly step down to your new custom asset row
-    }
-    return originalType; // Lets standard types (0-18) process normally
-}

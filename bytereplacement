@@ -563,3 +563,12 @@ arm9 020649B4 64 E2 0F 02
 #else
 0053 080016BA FC 00
 #endif
+
+# Pokedex Sound type graphic - TYPE_SOUND (19) -> dex_gfx member 124
+0018 021FBE5C 7C 00 00 00
+
+# Summary screen Sound type graphic - redirect type gfx lookup to Sound-aware wrapper
+arm9 0208BA9C 51 F3 2E FA
+
+# Summary screen Fairy palette - redirect palette lookup to Fairy-aware wrapper
+arm9 0208BABA 51 F3 2B FA

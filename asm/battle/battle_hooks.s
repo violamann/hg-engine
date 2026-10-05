@@ -777,3 +777,36 @@ ldr r0, =0x0224DB3C | 1 // Immediately after the switch case. No registers are i
 bx r0
 
 .pool
+
+.pool
+
+.global MoveSelectionTypeGfxHook
+MoveSelectionTypeGfxHook:
+    // Reproduce the instruction overwritten at 0x022688E4.
+    ldr r0, [sp, #0x3C]
+
+    // TYPE_SOUND = 19.
+    cmp r0, #19
+    beq MoveSelectionTypeGfxHook_Sound
+
+    // Normal path: use the game's original type -> battle_gfx lookup.
+    ldr r3, =0x02077679
+    blx r3
+    b MoveSelectionTypeGfxHook_Return
+
+MoveSelectionTypeGfxHook_Sound:
+    // battle_gfx member 369 = 0x171.
+    mov r0, #0xB9
+    lsl r0, r0, #1
+    sub r0, #1
+
+MoveSelectionTypeGfxHook_Return:
+    // Reproduce the instruction overwritten at 0x022688EA.
+    mov r1, r0
+
+    // Resume at the first untouched instruction:
+    // 022688EC: movs r0, #5
+    ldr r3, =0x022688ED
+    bx r3
+
+.pool

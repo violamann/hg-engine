@@ -225,3 +225,21 @@ u16 ModifyStatByNature(u32 nature, u16 n, u8 statIndex)
     }
     return retVal;
 }
+
+u32 GetSummaryScreenTypeSpriteIndex(u32 originalType)
+{
+    if (originalType == TYPE_SOUND) {
+        return 369;
+    }
+
+    return Summary_GetTypeSpriteIndex(originalType);
+}
+
+u32 GetSummaryScreenTypePaletteIndex(u32 originalType)
+{
+    if (originalType == TYPE_FAIRY) {
+        return 1;
+    }
+
+    return Summary_GetTypePaletteIndex(originalType);
+}
